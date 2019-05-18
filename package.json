@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/idealclover/Love-Gift.git"
+    "url": "git+https://github.com/gaopengfei123123/Love-Gift.git"
   },
-  "author": "idealclover",
+  "author": "gaopengfei123123",
   "bugs": {
-    "url": "https://github.com/idealclover/Love-Gift/issues"
+    "url": "https://github.com/gaopengfei123123/Love-Gift/issues"
   },
-  "homepage": "https://github.com/idealclover/Love-Gift#readme",
+  "homepage": "https://github.com//Love-Gift#readme",
   "dependencies": {
     "coffee-script": "^1.12.7",
     "copyfiles": "^2.1.0",

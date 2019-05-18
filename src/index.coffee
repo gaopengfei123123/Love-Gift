@@ -1,7 +1,7 @@
 styles = """
 /*
  * "my love gift"💕 v0.0.1
- * Authored by idealclover
+ * Authored by GPF
  */
 
 body {
@@ -11,13 +11,14 @@ body {
 }
 
 /*
- * ...
- * ...hello?
- * 大家好！我是翠翠！idealclover~
- * 情人节快到了，该给女朋友点什么呢~
- * 写一个网页给子枨吧ww送她一颗小心心~
- * 可是~要怎么做呢~
- * 首先做一个框框来放我们的代码吧ww
+ * ...test test
+ * ...喂, 喂?
+ * 啊~ 最近可忙死我了
+ * 每天都有种要猝死的感觉...
+ * 下班的时候掐指一算
+ * 发现好久没和亲爱的联系了
+ * 我得做点什么补救一下(求生欲)!
+ * 不如做个心?
  * 那么~开动啦！！
  */
 
@@ -35,9 +36,8 @@ pre {
 }
 
 /*
- * 不行不行，全是白色看代码都要看昏了
- * 我需要语法高亮~那我们就动手实现一下它吧~
- * Colors based on Base16 Ocean Dark
+ * 这底色要晃瞎我得狗眼了
+ * 上彩电!!
  */
 
 pre em:not(.comment) { font-style: normal; }
@@ -50,9 +50,9 @@ pre em:not(.comment) { font-style: normal; }
 
 
 /*
- * 呦吼你看~代码高亮实现啦~接下来我们开工吧！
- * 首先我们把这个代码框移一下吧~它太占地方啦
- * 由于是响应式布局~所以在手机上和电脑上有不同的显示效果呦
+ * 呼~ 
+ * 现在可以正式开始了
+ * 先腾出来一个地方
  */
 
 @media screen and (max-width: 768px) {
@@ -118,7 +118,7 @@ pre em:not(.comment) { font-style: normal; }
           transform-origin: 100% 100%;
 }
 
-/* 给它加上一点阴影ww */
+/* 让它立体一点 */
 
 #heart::after {
   box-shadow:
@@ -137,7 +137,7 @@ pre em:not(.comment) { font-style: normal; }
  */
 
 #heart i::before {
-  content: 'idealclover';
+  content: '飞';
   position: absolute;
   z-index: 9;
   width: 100%;
@@ -150,8 +150,7 @@ pre em:not(.comment) { font-style: normal; }
 }
 
 /*
- * 接下来做什么呢~
- * 我们让这颗心跳起来吧！
+ * 加一点我对你心跳的感觉
  */
 
 @-webkit-keyframes heartbeat {
@@ -195,7 +194,7 @@ pre em:not(.comment) { font-style: normal; }
 }
 
 /*
- * 好哒！接下来准备让它跳起来吧ww
+ * 好嘞, 接下来准备让它跳起来吧!
  */
 
 #heart, #echo {
@@ -252,17 +251,13 @@ pre em:not(.comment) { font-style: normal; }
  * 诶嘿~~
  * 这样我们的小心心就做好啦~
  * 怎么样~ >v< 还好看吗~~
- * 亲爱哒！情人节快乐！
- * 爱你哦！
+ * 亲爱的, 爱你哦！
  *
  */
 
 /*
- * "my love gift" v0.0.1
- * Robot rights protected under BOT License & Apache2 license
- * Inspired by pen#PwLXXP
- * 谨以此网页献给我的女朋友子枨💕
- * 你最可爱ww
+ * 谨以此网页献给我的女朋友晓蕾
+ * 你最可爱~
  */
 """
 finalStyle = styles
@@ -319,14 +314,12 @@ $('body').append """
 	<pre id="style-text"></pre>
   <div style = 'position: fixed;left: 30px;bottom: 10px;'>
     <a id='skipAnimation'>跳过动画</a>
-    <a style='color: #fff' href='http://love.idealclover.top'>重新播放</a>
-    <a style='color: #fff' target="_blank" href='https://github.com/idealclover/Love-Gift'>项目地址</a>
-    <a style='color: #fff' target="_blank" href='https://www.idealclover.top/'>我的博客</a>
+    <a style='color: #fff' href=''>重新播放</a>
   </div>
 """
 
 
-#  <a href='https://www.idealclover.top'>idealclover</a>
+#  <a href='http://blog.justwe.site'>GPF</a>
 
 
 # faster typing in small iframe on codepen homepage

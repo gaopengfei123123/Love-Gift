@@ -9,7 +9,7 @@
 ### 你也想整一个？
 
 1. 安装nodejs与npm：[点击这里](http://nodejs.cn/download/)
-2. clone this repository ``` git clone https://github.com/idealclover/Resume.git```
+2. clone this repossitory 
 3. 进入目录并安装依赖 ```npm install```
 4. 进入源码修改相关内容
 
